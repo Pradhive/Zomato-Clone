@@ -9,9 +9,10 @@ body{
     background-color:rgb(77, 77, 77);
 }
 .navbar{
-    position: sticky;
+    position: fixed;
     top: 0;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: black;
@@ -153,7 +154,7 @@ body{
 }
 .view__more__btn:hover {
     background-image: linear-gradient(to right, white 0%, white 0%, white 100%);
-    width: 100%;
+    width: 50%;
     letter-spacing: 2px;
     transition: all 0.5s ease-in-out;
 }
